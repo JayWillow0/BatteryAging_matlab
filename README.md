@@ -3,7 +3,7 @@
 本项目参考 Paul Gasper 等人发表于 *Journal of The Electrochemical Society* 的两篇论文，用 **MATLAB** 复现了一套**数据驱动、自动识别**的电池容量衰减半经验建模流程，并分别应用于：
 
 - **日历老化（calendar aging）** —— 对应 [Paul Gasper et al 2021, *J. Electrochem. Soc.* **168** 020502](https://iopscience.iop.org/article/10.1149/1945-7111/abdde1)
-- **循环老化（cycling aging）** —— 对应 [Paul Gasper et al 2022, *J. Electrochem. Soc.* **169** 080518](https://iopscience.iop.org/article/10.1149/1945-7111/abd0e1)
+- **循环老化（cycling aging）** —— 对应 [Paul Gasper et al 2022, *J. Electrochem. Soc.* **169** 080518](https://iopscience.iop.org/article/10.1149/1945-7111/ac86a8)
 
 > ⚠️ 仅复现了论文的部分内容（baseline 模型复现 + 自动识别流程），未覆盖原文全部实验与讨论。
 
