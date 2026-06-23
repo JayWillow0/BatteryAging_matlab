@@ -1,0 +1,33 @@
+# MATLAB 临时/编译产物
+*.asv
+slprj/
+*.mexa64 *.mexw64 *.mexmaci64
+
+# 第三方依赖：slanCM 绘图配色库，按 README 指引自行下载，不入库
+cycling_aging/slanCM/
+
+# 运行产物（大文件，可由主程序重新生成）—— 仅排除拟合结果，保留原始数据
+calendar_aging/Output_results/fitted_models.mat
+data/
+results/
+
+# ⚠️ 以下 .mat 为原始 / 中间数据，必须保留，切勿用 *.mat 一刀切排除，否则他人无法复现：
+#   calendar_aging/data_Schimpe_2018.mat   日历老化原始数据
+#   cycling_aging/Naumann.mat              循环老化数据（主程序直接 load）
+#   cycling_aging/LFP_data/*.mat           循环老化原始数据
+
+# Python（如果你也写算法）
+__pycache__/
+*.pyc
+.venv/
+
+# 编辑器/OS
+.vscode/
+.DS_Store
+Thumbs.db
+
+# AI 对话/工具日志（如需留痕版本控制，注释掉此行）
+.waylog/
+
+AGENTS.md
+CLAUDE.md
